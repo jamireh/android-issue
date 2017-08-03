@@ -5,6 +5,7 @@ import android.support.design.widget.BottomNavigationView
 import android.support.v7.app.AppCompatActivity
 import android.widget.TextView
 import com.example.jmfayard.myapplication.databinding.ActivityMainBinding
+import dagger.Provides
 
 class MainActivity : AppCompatActivity() {
 
