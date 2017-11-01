@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
         val binding = ActivityMainBinding.inflate(layoutInflater)
 
         mTextMessage = binding.message
-        val navigation = findViewById<BottomNavigationView>(R.id.navigation)
+        val navigation = binding.navigation
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)
     }
 }
